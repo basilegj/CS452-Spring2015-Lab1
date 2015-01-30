@@ -1,1 +1,11 @@
-name, date, description
+Greg Basile, January 29, 2015
+
+Description:
+
+Starting with Angel's triangles.js code, it is modified so that it creates a rhombus instead. 
+Then an addEventListener function is added to the canvas. An index is set at 0. When the canvas is 
+clicked, the index is increased by one. Then a switch statement is used to either render a rhombus,
+square, or triangle. The input for the switch statement is set to be index%3. This way, one of the 
+three cases have to happen. For each case, the vertices are set to make the appropriate figure, and 
+it is then re-rendered to create the next shape. It's not the most elegant code, and there may be remnants
+of Angel's code that are unnecessary, but it works. 
